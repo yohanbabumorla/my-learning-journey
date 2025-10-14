@@ -18,7 +18,7 @@ Welcome to my front-end development journey! This folder contains my daily learn
 web_dev/
 ├── Day01_HTML_Basics/
 │   └── index.html
-├── Day02_CSS_Selectors/
+├── Day02_CSS_Selectors/                  #folder structure may be changed or different
 │   └── style.css
 ├── Day03_JS_Intro/
 │   └── script.js
