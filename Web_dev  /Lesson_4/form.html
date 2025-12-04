@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Data Form</title>
+  </head>
+  <body>
+    <h1>Student Regestration Form</h1>
+    <form action="\Submit" method="post">
+      <label for="Username">Enter Your name Here:</label>
+      <input
+        type="text"
+        required
+        placeholder="Username"
+        minlength="3"
+        maxlength="20"
+      /><br />
+      <label for="Regestration Number">Regestration Number: </label>
+      <input type="text" required placeholder="Regestration Number" /><br />
+      <label for="Branch">Choose Your Branch: </label><br />
+      <label><input type="radio" name="Branch" value="CSE" />CSE</label><br />
+      <label><input type="radio" name="Branch" value="CSM" />CSM</label><br />
+      <label><input type="radio" name="Branch" value="CBA" />CBA</label><br />
+      <label for="e-mail">Enter E-mail: </label>
+      <input type="email" name="e-mail" placeholder="Enter Your E-mail" /><br />
+      <label for="password">Enter password: </label>
+      <input
+        type="password"
+        name="password"
+        required
+        placeholder="Enter password"
+      /><br />
+      <label for="choose preffered courses">choose preffered courses: </label
+      ><br />
+      <label
+        ><input type="checkbox" name="choose preffered courses" />Python with
+        DSA</label
+      ><br />
+      <label
+        ><input type="checkbox" name="choose preffered courses" />Web
+        Development</label
+      ><br />
+      <label
+        ><input type="checkbox" name="choose preffered courses" />Machine
+        Learning</label
+      ><br />
+      <input type="submit" placeholder="submit" />
+    </form>
+    <br />
+  </body>
+</html>
