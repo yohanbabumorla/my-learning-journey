@@ -287,6 +287,4 @@ We’ll cover:
 * Real interview-style array problems
 * Week 1 recap quiz 🧠
 
----
 
-Would you like me to include **array rotation & merge visuals (with step-by-step movement diagrams)** for tomorrow’s final array class (Day 6 + Week 1 Recap)?
